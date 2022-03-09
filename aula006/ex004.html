@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+        hr{
+            position: relative;
+            width: 500px;
+            left: -50px;
+        }
+    </style>
 </head>
 <body>
     <script>
-        var nome = window.prompt('Qual seu nomes')
-        var salario = window.prompt('Qual seu salário?')
-        document.write(`Olá, ${nome}! Seu nome tem ${nome.length}.<br/>`)
-        document.write(`Seu nome em maiusculas é ${nome.toUpperCase()}<br/>`)
-        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}<br/>`)
-        document.write(`Seu salário é ${salario}.`)
+        var nome = window.prompt('Qual seu nome?')
+        document.writeln(`Olá, ${nome}! Seu nome tem ${nome.length} letras. <hr>`)
+        document.write(`Seu nome em maiúscula é ${nome.toUpperCase()}. <hr>`)
+        document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}.`)
         
         
         // Colocar todas as letras em MAIUSCULAS toUpperCase()
         
         // Colocar todas as letras em minusculas ToLowerCase()
 
-        //n1.toLocaleString('pt-BR' , {style: 'currency' , currency: 'BRL'}) para tranformar em valores R$ 2,345.90
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para tranformar em valores R$ 2,345.90
     </script>
 </body>
 </html>

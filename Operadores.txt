@@ -1,0 +1,57 @@
+Ordem dos Operadores
+
+(), **, /... Aritimeticos
+
+<, >, >=... Relacionais
+
+1- ! - não
+2- && - é	Lógicos
+3- || - ou
+
+Operadores
+
+> - maior quer
+< - menor quer
+<= -menor ou igual
+>= - maior ou igual
+== - igual
+!= - diferente
+! - negação
+$$ - é
+|| - ou
+
+
+Tabelas de True e False:
+
+	! (não)
+
+true--false
+false--true
+
+
+	$$ (é)
+
+true--true = true
+false--true = false
+true--false = false
+false--false = false
+
+
+	|| (ou)
+
+true--true = true
+false--true = true
+true--false = true
+false--false = false
+
+
+Operadores Ternário
+
+?
+:
+
+teste ? true : false 
+
+ex:
+
+média>=7.0 ? "Aprovado" : "Reprovado

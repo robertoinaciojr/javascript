@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+</head>
+<body>
+    <h1>Qual seu país?</h1>
+    
+    Qua seu País? <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="nac()">
+
+    <div id="res"></div>
+
+    <script>
+        function nac(){
+            var p = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var val = (pais.value)
+
+            res.innerHTML = `<p>Você é do país ${val}</p>`
+
+            if (val == 'Brasil'){
+                res.innerHTML += `Você é <strong>Brasileiro</strong>`
+            }else{
+                res.innerHTML += `Você é <strong>Estrangeiro</strong>`
+            }
+        }
+
+    </script>
+</body>
+</html>
